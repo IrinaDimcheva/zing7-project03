@@ -12,6 +12,13 @@
   }
 }
 
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

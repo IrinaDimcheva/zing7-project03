@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function Header() {
   return (
-    <header className="max-w-screen-2xl mx-8 my-4 sm:px-8">
-      <nav className="flex justify-between">
+    <header className="mx-8 my-4 sm:px-8">
+      <nav className="flex justify-between items-center max-container">
         <div className="flex gap-6 items-center">
           <a href="/">
             <Image src="/bar.svg" alt="menu icon" width={30} height={30} />
